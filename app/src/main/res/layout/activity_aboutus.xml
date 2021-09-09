@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    tools:context=".aboutus">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="107dp"
+        android:layout_marginBottom="575dp"
+        android:gravity="center"
+        android:text="Guugle Kids"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="italic|bold" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="141dp"
+        android:background="@mipmap/ic_lancher_round"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="141dp" />
+
+    <TextView
+        android:id="@+id/forq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="For Queries :-"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forq"
+        android:textColor="#FFFFFF"
+        android:text="guuglekids@gmail.com"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:id="@+id/mail"
+        />
+
+    <TextView
+        android:id="@+id/thanking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="143dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="@string/thanking"
+        android:textSize="22sp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+    android:id="@+id/msd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/thanking"
+    android:text="@string/thanks"
+    android:textColor="#FFFFFF"
+    android:textSize="16sp"
+    android:gravity="center"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msd"
+        android:text="7498849553"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:gravity="center"
+
+        />
+
+</RelativeLayout>

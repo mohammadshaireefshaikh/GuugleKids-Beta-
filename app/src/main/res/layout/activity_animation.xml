@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_img"
+    tools:context=".Animation">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="350dp"
+        android:scrollbarFadeDuration="3"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="rocket.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="263dp"
+        android:layout_height="284dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        android:text="Welcome Parents"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
